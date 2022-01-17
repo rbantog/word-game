@@ -4,6 +4,12 @@ A game inspired by [Wordle](https://www.powerlanguage.co.uk/wordle/). Basically 
 
 --
 
+## Goals of Project:
+
+- Word puzzle in same vain as [Wordle](https://www.powerlanguage.co.uk/wordle/). Try and find the random 5 letter word in 6 tries. If correct letter is found in a guess mark it as green if in right place or yellow if correct letter but in wrong place. Save stats for streak, win rate, and correct guesses at each number of words (1, 2, ... 6).
+- Add feature to get a new word nit dependent on 24 hour window.
+- Share a word you solved with a friend via link for them to solve.
+
 ## Available Scripts
 
 In the project directory, you can run:
