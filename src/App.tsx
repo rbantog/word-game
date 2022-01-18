@@ -1,11 +1,16 @@
-import React from 'react';
+import { ReactElement } from 'react';
 
+import { GameBoard } from './components/GameBoard/GameBoard';
 import './App.css';
 
-function App() {
+function App(): ReactElement {
     return (
-        <div className="App">
-            <header className="App-header"></header>
+        <div className="app">
+            <header className="app-header">word game</header>
+            <main className="main-game">
+                <GameBoard />
+            </main>
+            <footer></footer>
         </div>
     );
 }
